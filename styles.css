@@ -9,12 +9,20 @@
 }
 
 body {
-  margin: 1rem 15rem;
+  max-width: 45rem;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 h2 {
   font-size: 1.5rem;
   margin: 1rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0 1rem;
+  }
 }
 
 /* navbar */
@@ -26,7 +34,6 @@ nav ul {
 }
 
 nav {
-  /* margin-bottom: 1rem; */
   font-weight: 600;
 }
 
@@ -56,22 +63,34 @@ a {
 .about-me p {
   margin-right: 1rem;
   line-height: 1.5rem;
+  flex-shrink: 2;
 }
 
 .img-container {
   width: 75%;
   overflow: hidden;
   margin-top: 1.5rem;
+  flex-shrink: 1;
 }
 
 .img-container img {
   width: 75%;
-  margin: -2rem 0;
+  /* margin: -2rem 0; */
   display: block;
 }
 
 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me {
+    flex-direction: column;
+  }
+  
+  .img-container {
+    width: 50%;
+  }
 }
 
 /* projects */
