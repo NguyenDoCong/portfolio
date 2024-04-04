@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>Nguyen Do Cong</h2>
+        <ul>
+          <li><a href="./index.html#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about-me">
+        <article>
+          <h2 id="about-me">About Me</h2>
+          <p>
+            Tôi là Nguyễn Đỗ Công, cử nhân loại Giỏi ngành Công nghệ thông tin,
+            hệ Văn bằng 2 tại Trường Đại học Công nghệ thông tin và Truyền
+            thông, Đại học Thái Nguyên.
+          </p>
+        </article>
+        <figure class="img-container">
+          <img src="./IMG_0402.jpg" />
+        </figure>
+      </section>
+      <section>
+        <h2 id="projects">Projects</h2>
+        <h3 class="toggle-element" data-toggle="prj1">Kanban</h3>
+        <p class="hidden" id="prj1">
+          Trong quá trình học và thực tập, tôi đã phát triển trang web
+          responsive sử dụng HTML/CSS và thư viện bootstrap, trang web dự báo
+          thời tiết sử dụng jQuery, tham gia dự án Xây dựng bảng Kanban sử dụng
+          ReactJS và thư viện react-beautiful-dnd.
+        </p>
+        <h3 class="toggle-element" data-toggle="prj2">POS</h3>
+        <p class="hidden" id="prj2">
+          Tôi cũng đã thực hiện dự án Xây dựng phần mềm quản lý quán cà phê sử
+          dụng .NET framework và quản lý csdl với SQL Server.
+        </p>
+      </section>
+      <section>
+        <h2 id="skills">Skills</h2>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-react"></i>
+        <i class="fab fa-git"></i>
+        <i class="fab fa-github"></i>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

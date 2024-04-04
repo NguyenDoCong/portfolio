@@ -1,0 +1,85 @@
+/* general */
+
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1rem 15rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* navbar */
+
+nav,
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  /* margin-bottom: 1rem; */
+}
+
+nav ul {
+  list-style: none;
+  justify-content: space-around;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+/* about me */
+
+.about-me {
+  display: flex;
+}
+
+.about-me p {
+  margin-right: 1rem;
+  line-height: 1.5rem;
+}
+
+.img-container {
+  width: 75%;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.img-container img {
+  width: 75%;
+  margin: -2rem 0;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+/* projects */
+.toggle-element {
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.hidden {
+  margin-left: 1rem;
+}
+
+.fab {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
